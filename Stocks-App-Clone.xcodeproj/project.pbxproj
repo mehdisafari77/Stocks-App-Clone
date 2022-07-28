@@ -75,6 +75,8 @@
 		B55DF8772892427700A64951 /* Stocks-App-Clone */ = {
 			isa = PBXGroup;
 			children = (
+				B55DF8AC289243EC00A64951 /* Utils */,
+				B55DF8A22892439B00A64951 /* Features */,
 				B55DF8782892427700A64951 /* Stocks_App_CloneApp.swift */,
 				B55DF87A2892427700A64951 /* ContentView.swift */,
 				B55DF87C2892427900A64951 /* Assets.xcassets */,
@@ -89,6 +91,92 @@
 				B55DF87F2892427900A64951 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B55DF8A22892439B00A64951 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				B55DF8A9289243CF00A64951 /* News */,
+				B55DF8A6289243BD00A64951 /* Search */,
+				B55DF8A3289243A600A64951 /* Quotes */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		B55DF8A3289243A600A64951 /* Quotes */ = {
+			isa = PBXGroup;
+			children = (
+				B55DF8A5289243B900A64951 /* Views */,
+				B55DF8A4289243B200A64951 /* Models */,
+			);
+			path = Quotes;
+			sourceTree = "<group>";
+		};
+		B55DF8A4289243B200A64951 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B55DF8A5289243B900A64951 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B55DF8A6289243BD00A64951 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				B55DF8A8289243C900A64951 /* Views */,
+				B55DF8A7289243C300A64951 /* Models */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		B55DF8A7289243C300A64951 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B55DF8A8289243C900A64951 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B55DF8A9289243CF00A64951 /* News */ = {
+			isa = PBXGroup;
+			children = (
+				B55DF8AB289243D800A64951 /* Views */,
+				B55DF8AA289243D400A64951 /* Models */,
+			);
+			path = News;
+			sourceTree = "<group>";
+		};
+		B55DF8AA289243D400A64951 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B55DF8AB289243D800A64951 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B55DF8AC289243EC00A64951 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
