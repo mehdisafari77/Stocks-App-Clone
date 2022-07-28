@@ -11,6 +11,7 @@
 		B55DF87B2892427700A64951 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55DF87A2892427700A64951 /* ContentView.swift */; };
 		B55DF87D2892427900A64951 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B55DF87C2892427900A64951 /* Assets.xcassets */; };
 		B55DF8802892427900A64951 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B55DF87F2892427900A64951 /* Preview Assets.xcassets */; };
+		B55DF8AE2893107000A64951 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55DF8AD2893107000A64951 /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		B55DF87F2892427900A64951 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B55DF8852892427A00A64951 /* Stocks-App-CloneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Stocks-App-CloneTests.xctest"; path = "/Users/MehdiSA/Desktop/Coding Journey/MehdiApps/Mehdi Ind. Courses/IOS/Stocks-App-Clone/build/Debug-iphoneos/Stocks-App-CloneTests.xctest"; sourceTree = "<absolute>"; };
 		B55DF88F2892427A00A64951 /* Stocks-App-CloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Stocks-App-CloneUITests.xctest"; path = "/Users/MehdiSA/Desktop/Coding Journey/MehdiApps/Mehdi Ind. Courses/IOS/Stocks-App-Clone/build/Debug-iphoneos/Stocks-App-CloneUITests.xctest"; sourceTree = "<absolute>"; };
+		B55DF8AD2893107000A64951 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,6 +177,7 @@
 		B55DF8AC289243EC00A64951 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				B55DF8AD2893107000A64951 /* NetworkManager.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -309,6 +312,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B55DF8AE2893107000A64951 /* NetworkManager.swift in Sources */,
 				B55DF87B2892427700A64951 /* ContentView.swift in Sources */,
 				B55DF8792892427700A64951 /* Stocks_App_CloneApp.swift in Sources */,
 			);
