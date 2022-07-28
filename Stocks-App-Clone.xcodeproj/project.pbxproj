@@ -11,9 +11,6 @@
 		B55DF87B2892427700A64951 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55DF87A2892427700A64951 /* ContentView.swift */; };
 		B55DF87D2892427900A64951 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B55DF87C2892427900A64951 /* Assets.xcassets */; };
 		B55DF8802892427900A64951 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B55DF87F2892427900A64951 /* Preview Assets.xcassets */; };
-		B55DF88A2892427A00A64951 /* Stocks_App_CloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55DF8892892427A00A64951 /* Stocks_App_CloneTests.swift */; };
-		B55DF8942892427A00A64951 /* Stocks_App_CloneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55DF8932892427A00A64951 /* Stocks_App_CloneUITests.swift */; };
-		B55DF8962892427A00A64951 /* Stocks_App_CloneUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55DF8952892427A00A64951 /* Stocks_App_CloneUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,16 +31,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B55DF8752892427700A64951 /* Stocks-App-Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stocks-App-Clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B55DF8752892427700A64951 /* Stocks-App-Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "Stocks-App-Clone.app"; path = "/Users/MehdiSA/Desktop/Coding Journey/MehdiApps/Mehdi Ind. Courses/IOS/Stocks-App-Clone/build/Debug-iphoneos/Stocks-App-Clone.app"; sourceTree = "<absolute>"; };
 		B55DF8782892427700A64951 /* Stocks_App_CloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stocks_App_CloneApp.swift; sourceTree = "<group>"; };
 		B55DF87A2892427700A64951 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B55DF87C2892427900A64951 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B55DF87F2892427900A64951 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		B55DF8852892427A00A64951 /* Stocks-App-CloneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Stocks-App-CloneTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B55DF8892892427A00A64951 /* Stocks_App_CloneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stocks_App_CloneTests.swift; sourceTree = "<group>"; };
-		B55DF88F2892427A00A64951 /* Stocks-App-CloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Stocks-App-CloneUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B55DF8932892427A00A64951 /* Stocks_App_CloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stocks_App_CloneUITests.swift; sourceTree = "<group>"; };
-		B55DF8952892427A00A64951 /* Stocks_App_CloneUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stocks_App_CloneUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B55DF8852892427A00A64951 /* Stocks-App-CloneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Stocks-App-CloneTests.xctest"; path = "/Users/MehdiSA/Desktop/Coding Journey/MehdiApps/Mehdi Ind. Courses/IOS/Stocks-App-Clone/build/Debug-iphoneos/Stocks-App-CloneTests.xctest"; sourceTree = "<absolute>"; };
+		B55DF88F2892427A00A64951 /* Stocks-App-CloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Stocks-App-CloneUITests.xctest"; path = "/Users/MehdiSA/Desktop/Coding Journey/MehdiApps/Mehdi Ind. Courses/IOS/Stocks-App-Clone/build/Debug-iphoneos/Stocks-App-CloneUITests.xctest"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,20 +69,7 @@
 			isa = PBXGroup;
 			children = (
 				B55DF8772892427700A64951 /* Stocks-App-Clone */,
-				B55DF8882892427A00A64951 /* Stocks-App-CloneTests */,
-				B55DF8922892427A00A64951 /* Stocks-App-CloneUITests */,
-				B55DF8762892427700A64951 /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		B55DF8762892427700A64951 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				B55DF8752892427700A64951 /* Stocks-App-Clone.app */,
-				B55DF8852892427A00A64951 /* Stocks-App-CloneTests.xctest */,
-				B55DF88F2892427A00A64951 /* Stocks-App-CloneUITests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		B55DF8772892427700A64951 /* Stocks-App-Clone */ = {
@@ -108,23 +89,6 @@
 				B55DF87F2892427900A64951 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		B55DF8882892427A00A64951 /* Stocks-App-CloneTests */ = {
-			isa = PBXGroup;
-			children = (
-				B55DF8892892427A00A64951 /* Stocks_App_CloneTests.swift */,
-			);
-			path = "Stocks-App-CloneTests";
-			sourceTree = "<group>";
-		};
-		B55DF8922892427A00A64951 /* Stocks-App-CloneUITests */ = {
-			isa = PBXGroup;
-			children = (
-				B55DF8932892427A00A64951 /* Stocks_App_CloneUITests.swift */,
-				B55DF8952892427A00A64951 /* Stocks_App_CloneUITestsLaunchTests.swift */,
-			);
-			path = "Stocks-App-CloneUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,7 +179,7 @@
 				Base,
 			);
 			mainGroup = B55DF86C2892427600A64951;
-			productRefGroup = B55DF8762892427700A64951 /* Products */;
+			productRefGroup = B55DF86C2892427600A64951;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -266,7 +230,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B55DF88A2892427A00A64951 /* Stocks_App_CloneTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +237,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B55DF8942892427A00A64951 /* Stocks_App_CloneUITests.swift in Sources */,
-				B55DF8962892427A00A64951 /* Stocks_App_CloneUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
