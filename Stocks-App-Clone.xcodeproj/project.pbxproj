@@ -13,6 +13,7 @@
 		B55DF8802892427900A64951 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B55DF87F2892427900A64951 /* Preview Assets.xcassets */; };
 		B55DF8AE2893107000A64951 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55DF8AD2893107000A64951 /* NetworkManager.swift */; };
 		B55DF8B0289313A400A64951 /* GlobalQuote.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55DF8AF289313A400A64951 /* GlobalQuote.swift */; };
+		B55DF8B5289AD58200A64951 /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55DF8B4289AD58200A64951 /* Quote.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,15 +34,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B55DF8752892427700A64951 /* Stocks-App-Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "Stocks-App-Clone.app"; path = "/Users/MehdiSA/Desktop/Coding Journey/MehdiApps/Mehdi Ind. Courses/IOS/Stocks-App-Clone/build/Debug-iphoneos/Stocks-App-Clone.app"; sourceTree = "<absolute>"; };
 		B55DF8782892427700A64951 /* Stocks_App_CloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stocks_App_CloneApp.swift; sourceTree = "<group>"; };
 		B55DF87A2892427700A64951 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B55DF87C2892427900A64951 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B55DF87F2892427900A64951 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		B55DF8852892427A00A64951 /* Stocks-App-CloneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Stocks-App-CloneTests.xctest"; path = "/Users/MehdiSA/Desktop/Coding Journey/MehdiApps/Mehdi Ind. Courses/IOS/Stocks-App-Clone/build/Debug-iphoneos/Stocks-App-CloneTests.xctest"; sourceTree = "<absolute>"; };
-		B55DF88F2892427A00A64951 /* Stocks-App-CloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Stocks-App-CloneUITests.xctest"; path = "/Users/MehdiSA/Desktop/Coding Journey/MehdiApps/Mehdi Ind. Courses/IOS/Stocks-App-Clone/build/Debug-iphoneos/Stocks-App-CloneUITests.xctest"; sourceTree = "<absolute>"; };
 		B55DF8AD2893107000A64951 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		B55DF8AF289313A400A64951 /* GlobalQuote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalQuote.swift; sourceTree = "<group>"; };
+		B55DF8B1289AD52B00A64951 /* Stocks-App-Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stocks-App-Clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B55DF8B2289AD52B00A64951 /* Stocks-App-CloneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Stocks-App-CloneTests.xctest"; path = "/Users/MehdiSA/Desktop/Coding Journey/MehdiApps/Mehdi Ind. Courses/IOS/Stocks-App-Clone/build/Debug-iphoneos/Stocks-App-CloneTests.xctest"; sourceTree = "<absolute>"; };
+		B55DF8B3289AD52B00A64951 /* Stocks-App-CloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Stocks-App-CloneUITests.xctest"; path = "/Users/MehdiSA/Desktop/Coding Journey/MehdiApps/Mehdi Ind. Courses/IOS/Stocks-App-Clone/build/Debug-iphoneos/Stocks-App-CloneUITests.xctest"; sourceTree = "<absolute>"; };
+		B55DF8B4289AD58200A64951 /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 			isa = PBXGroup;
 			children = (
 				B55DF8772892427700A64951 /* Stocks-App-Clone */,
+				B55DF8B1289AD52B00A64951 /* Stocks-App-Clone.app */,
 			);
 			sourceTree = "<group>";
 		};
@@ -120,6 +123,7 @@
 			isa = PBXGroup;
 			children = (
 				B55DF8AF289313A400A64951 /* GlobalQuote.swift */,
+				B55DF8B4289AD58200A64951 /* Quote.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -202,7 +206,7 @@
 			);
 			name = "Stocks-App-Clone";
 			productName = "Stocks-App-Clone";
-			productReference = B55DF8752892427700A64951 /* Stocks-App-Clone.app */;
+			productReference = B55DF8B1289AD52B00A64951 /* Stocks-App-Clone.app */;
 			productType = "com.apple.product-type.application";
 		};
 		B55DF8842892427A00A64951 /* Stocks-App-CloneTests */ = {
@@ -220,7 +224,7 @@
 			);
 			name = "Stocks-App-CloneTests";
 			productName = "Stocks-App-CloneTests";
-			productReference = B55DF8852892427A00A64951 /* Stocks-App-CloneTests.xctest */;
+			productReference = B55DF8B2289AD52B00A64951 /* Stocks-App-CloneTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		B55DF88E2892427A00A64951 /* Stocks-App-CloneUITests */ = {
@@ -238,7 +242,7 @@
 			);
 			name = "Stocks-App-CloneUITests";
 			productName = "Stocks-App-CloneUITests";
-			productReference = B55DF88F2892427A00A64951 /* Stocks-App-CloneUITests.xctest */;
+			productReference = B55DF8B3289AD52B00A64951 /* Stocks-App-CloneUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -318,6 +322,7 @@
 				B55DF8AE2893107000A64951 /* NetworkManager.swift in Sources */,
 				B55DF87B2892427700A64951 /* ContentView.swift in Sources */,
 				B55DF8792892427700A64951 /* Stocks_App_CloneApp.swift in Sources */,
+				B55DF8B5289AD58200A64951 /* Quote.swift in Sources */,
 				B55DF8B0289313A400A64951 /* GlobalQuote.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
