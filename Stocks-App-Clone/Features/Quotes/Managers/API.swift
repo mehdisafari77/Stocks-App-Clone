@@ -14,19 +14,29 @@ struct API {
     }
     
     static func symbolSearchUrl(for searchKey: String) -> String {
-        
+        return urlBy(symbol: .search, searchKey: searchKey)
+    }
+    
+    static func quoteUrl(for searchKey: String) -> String {
+        return urlBy(symbol: .quote, searchKey: searchKey)
     }
     
     private static func urlBy(symbol: SymbolFunction, searchKey: String) -> String {
         switch symbol {
         case .search:
-            return "\(baseUrl)function"
-        default:
-            //
+            return "\(baseUrl)function=\(symbol.rawValue)&apiKey=\(key)&keywords=\(searchKey)"
+        case .quote:
+            return "\(baseUrl)function=\(symbol.rawValue)&apiKey=\(key)&symbol=\(searchKey)"
         }
     }
     enum SymbolFunction: String {
         case search = "SYMBOL_SEARCH"
         case quote = "GLOBAL_QUOTE"
+    }
+}
+
+extension API {
+    static var key: String {
+        return ""
     }
 }
