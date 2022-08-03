@@ -14,6 +14,7 @@
 		B55DF8AE2893107000A64951 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55DF8AD2893107000A64951 /* NetworkManager.swift */; };
 		B55DF8B0289313A400A64951 /* GlobalQuote.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55DF8AF289313A400A64951 /* GlobalQuote.swift */; };
 		B55DF8B5289AD58200A64951 /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55DF8B4289AD58200A64951 /* Quote.swift */; };
+		B55DF8B8289AD5C700A64951 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55DF8B7289AD5C700A64951 /* API.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		B55DF8B2289AD52B00A64951 /* Stocks-App-CloneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Stocks-App-CloneTests.xctest"; path = "/Users/MehdiSA/Desktop/Coding Journey/MehdiApps/Mehdi Ind. Courses/IOS/Stocks-App-Clone/build/Debug-iphoneos/Stocks-App-CloneTests.xctest"; sourceTree = "<absolute>"; };
 		B55DF8B3289AD52B00A64951 /* Stocks-App-CloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Stocks-App-CloneUITests.xctest"; path = "/Users/MehdiSA/Desktop/Coding Journey/MehdiApps/Mehdi Ind. Courses/IOS/Stocks-App-Clone/build/Debug-iphoneos/Stocks-App-CloneUITests.xctest"; sourceTree = "<absolute>"; };
 		B55DF8B4289AD58200A64951 /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
+		B55DF8B7289AD5C700A64951 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 		B55DF8A3289243A600A64951 /* Quotes */ = {
 			isa = PBXGroup;
 			children = (
+				B55DF8B6289AD5AC00A64951 /* Managers */,
 				B55DF8A5289243B900A64951 /* Views */,
 				B55DF8A4289243B200A64951 /* Models */,
 			);
@@ -187,6 +190,14 @@
 				B55DF8AD2893107000A64951 /* NetworkManager.swift */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		B55DF8B6289AD5AC00A64951 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				B55DF8B7289AD5C700A64951 /* API.swift */,
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -323,6 +334,7 @@
 				B55DF87B2892427700A64951 /* ContentView.swift in Sources */,
 				B55DF8792892427700A64951 /* Stocks_App_CloneApp.swift in Sources */,
 				B55DF8B5289AD58200A64951 /* Quote.swift in Sources */,
+				B55DF8B8289AD5C700A64951 /* API.swift in Sources */,
 				B55DF8B0289313A400A64951 /* GlobalQuote.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
