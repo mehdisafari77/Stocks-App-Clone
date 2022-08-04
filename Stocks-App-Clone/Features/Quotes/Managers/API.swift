@@ -37,6 +37,6 @@ struct API {
 
 extension API {
     static var key: String {
-        return ""
+        return "QWRS2BVSG2REYMY5"
     }
 }
