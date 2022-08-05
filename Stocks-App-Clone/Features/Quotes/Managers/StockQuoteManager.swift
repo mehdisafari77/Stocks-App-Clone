@@ -30,6 +30,7 @@ final class StockQuoteManager: QuoteManagerProtocol, ObservableObject {
                     downloadQueue.async {
                         internalQuotes.append(resp.quote)
                         downloadGroup.leave()
+                        // Need to fix here
                     }
                 }
             }
